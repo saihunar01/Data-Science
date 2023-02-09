@@ -1,0 +1,97 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello'
+-87.8
+- 
+/ 
++
+6 
+
+Ans:----->>>
+ 'hello' ----> Value   
+ -87.8  -----> Value
+ -      -----> (sunstraction operator) Expression
+ /      -----> (division oprator)expression
+ +      -----> (Addition operator) expression
+ 6      -----> Value
+
+2. What is the difference between string and variable?
+
+Ans :------->
+String : String is kind of data or any type of information.
+Variable : use to store the data ( integer , string etc.)
+
+3. Describe three different data types.
+
+Ans :------->
+1. String data types is a sequence of characters
+    str  - contain the characters
+2. Numeric data types: used to assign numeric values 
+    int - holds signed integers
+    float - holds floating precision numbers
+    complex - contain complex numbers
+3. Boolean data type: hold the boolean values 'True' and 'False'.
+    bool - 'True' , 'False'
+
+
+
+4. What is an expression made up of? What do all expressions do?
+
+Ans :------->
+Expression is made up with input values and mathematical operators. By using expressions and input vaues  we can get the output as per the mathematicla operator and function defined
+
+
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+
+Ans :------->
+Statements are informations  about the program or function or expressions , while expression is like a mathematicla expression where we provide input and get the output as per the operator.
+
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Ans :------->
+bacon=22  ## 22 valus is been assigned to the bacon variable
+bacon+1   ##bacon variable been incremented by 1
+
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+Ans :------->
+'spam' + 'spamspam' #this expression will concatenate both the string and provide the output after concatenation 
+'spam' * 3  # it multiplies the string by 3 times will give the output with string written 3 times
+
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Ans :------->
+variable name can be started with character values but not with numbers, thats why eggs is valid variable while 100 is not
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+Ans :------->
+a='123'
+type(a)  #  this show the data type
+type(int(a)) ## will change the data type of the values to integer 
+type(float(a)) # will change the data type of the values to float
+type(str(a))  #  will change the data type of the values to string
+
+
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+Ans :------->
+'I have eaten ' + 99 + ' burritos.'
+# concatenation can be done on all interegers values or on all string values i.e on same data type
+#correct format could be-->
+'I have eaten ' + '99' + ' burritos.'
+
